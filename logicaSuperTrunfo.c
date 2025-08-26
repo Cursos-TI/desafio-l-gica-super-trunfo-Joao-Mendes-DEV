@@ -73,58 +73,6 @@ int main (){
     float total2 = 0;
     total2 = (float)populacao2 + (area2 * 1000) + (pib2 * 1000000000) + pontosTuristicos2 + mediapib2 - mediadp2; //transformei as unidades de area e pib para melhor visualização
 
-    //Fiz a comparação de todos os dados das cartas
-    /*
-    printf("\nComparação de Cartas:\n");
-    printf("\nPopulação: Carta1 - %s: %u\n Carta2 - %s: %u\n", cidade1, populacao1, cidade2, populacao2);
-    if(populacao1 > populacao2){
-        printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    }
-    else{
-        printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    }
-
-    printf("\nÁrea: Carta1 - %s: %.2f\n Carta2 - %s: %.2f\n", cidade1, area1, cidade2, area2);
-    if(area1 > area2){
-        printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    }
-    else{
-        printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    }
-
-    printf("\nPIB: Carta1 - %s: %.2f\n Carta2 - %s: %.2f\n", cidade1, pib1, cidade2, pib2);
-    if(pib1 > pib2){
-        printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    }
-    else{
-        printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    }
-
-    printf("\nPontos turísticos: Carta1 - %s: %d\n Carta2 - %s: %d\n", cidade1, pontosTuristicos1, cidade2, pontosTuristicos2);
-    if(pontosTuristicos1 > pontosTuristicos2){
-        printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    }
-    else{
-        printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    }
-    
-    printf("\nDensidade populacional: Carta1 - %s: %.2f\n Carta2 - %s: %.2f\n", cidade1, mediadp1, cidade2, mediadp2);
-    if(mediadp1 < mediadp2){
-        printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    }
-    else{
-        printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    }
-
-    printf("\nPIB per capita: Carta1 - %s: %.2f\n Carta2 - %s: %.2f\n", cidade1, mediapib1, cidade2, mediapib2);
-    if(mediapib1 > mediapib2){
-        printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    }
-    else{
-        printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    }
-    */ //comentei a parte das comparações entre cartas porque não usarei mais no exercício, deixei a fim de não perder
-
     //Aqui começa o exercício nível aventureiro onde o usuário vai digitar o número correspondente do atributo que ele quer comparar e em seguida o "if" vai comparar as duas cartas e dar o resultado.
     printf("\nAgora você vai escolher um atributo para comparar com o adversário: \n");
     printf("População - digite 1\n");
