@@ -79,10 +79,13 @@ int main (){
     printf("PIB - digite 3\n");
     printf("Número de Pontos Turísticos - digite 4\n");
     printf("Densidade Populacional - digite 5\n");
+    //escolha do primeiro atributo
     printf("Escolha o primeiro atributo: \n");
     scanf("%d", &escolha1);
+    //escolha do segundo atributo
     printf("Escolha o segundo atributo: \n");
     scanf("%d", &escolha2);
+    //testando se são iguais
     if(escolha1 == escolha2){
         printf("Você escolheu o mesmo atributo. Comece de novo!\n");
     }
@@ -223,9 +226,9 @@ int main (){
         }
     break;
     }
-
+    //soma dos atributos
     printf("\nA soma dos atributos da carta %s é: %.2f e o da carta %s é: %.2f\n", cidade1, total1, cidade2, total2);
-
+    //carta vencedora
     if(total1 > total2){
         printf("A carta %s venceu!\n", cidade1);
     }
